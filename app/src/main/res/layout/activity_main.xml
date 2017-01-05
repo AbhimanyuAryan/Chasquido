@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background2"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="2dp">
+    <!--android:backgroundTint="@color/button_material_dark"-->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_mdu"
+        android:textColor="#ffa324"
+        android:textAlignment="center"
+        android:textSize="90dp"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Designed for MDU Portal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#c64e52"
+        android:id="@+id/moto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="A MuchMore.Inc Product, developed by Abhimanyu Aryan, Designed and visualized by Vibhor Batra"
+        android:id="@+id/developers" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="ENTER USER ID"
+        android:textColor="#ffff00"
+        android:textColorHint="#ffff00" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER PASSWORD"
+        android:textColor="#ffff00"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:textColorHint="#ffff00" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#71f736"/>
+
+    <TextView
+        android:id="@+id/lblerror"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:textColor="#c64e52" />
+
+</LinearLayout>

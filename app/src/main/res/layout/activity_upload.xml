@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/upload_background2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Howdy Buddy! Select an image by clicking on bottom file icon from your device and the image will be automatically uploaded to the server. You need not to do anything. Isn't that cool? Well yaa cool app for cool buddies."
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select below the type of picture"
+        android:layout_marginTop="20dp"
+        android:id="@+id/dropText" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:id="@+id/btn_selectImage"
+        android:background="@drawable/open_gallery" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#fdfffd"/>
+
+</LinearLayout>
